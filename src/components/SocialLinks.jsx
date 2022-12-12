@@ -1,8 +1,5 @@
 import React from "react";
-import {
-  FaGithub,
-  FaLinkedin,
-} from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
@@ -65,8 +62,8 @@ const SocialLinks = () => {
               href={href}
               className="flex justify-between items-center w-full text-white"
               download={download}
-                    target="_blank"
-                    rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
             >
               {child}
             </a>
