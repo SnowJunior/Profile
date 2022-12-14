@@ -57,7 +57,7 @@ const Experience = () => {
       id: 8,
       src: kotlin,
       title: "Kotlin",
-      style: "shadow-pink-500",
+      style: "shadow-purple-500",
     },
   ];
 
