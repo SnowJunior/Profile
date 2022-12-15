@@ -14,23 +14,16 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-20">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
-          quisquam voluptatibus nam iusto temporibus illum nobis aspernatur,
-          inventore non animi quos itaque sit laborum repellendus veniam vitae
-          blanditiis asperiores ea unde, neque fugiat suscipit voluptas.
-          Voluptates cupiditate, aperiam labore necessitatibus placeat, culpa
-          eveniet commodi harum ipsam eligendi veniam delectus quidem.
+          I am George Onyango a Full Stack Developer/ Software Engineer. I have 2 years experience building and designing software. I enjoy what I do and always aim to perform at the highest stage possible in all my projects.
+          My main focus is on mobile application development using techonologies like React Native, Flutter, and Kotlin. I also have experience in web development using technologies like React, and Ruby.
+          I am also a fast learner and I am always willing to learn new technologies and improve my skills.
               </p>
               
               <br />
               
-        <p className="text-xl">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur
-          similique incidunt dolorem maxime magnam quod ipsam obcaecati, at
-          facere esse optio, velit rem illum iure tempore temporibus officia, a
-          totam cumque! Nobis, illo. Similique error vitae quaerat, eos ex a
-          explicabo consequatur atque cum corporis obcaecati rerum assumenda,
-          sit molestias?
+        <p className="text-xl mt-5">
+          I am currently looking for a job as a Software Engineer/ Full Stack Developer. I am also open to freelance projects. I am interested in working with companies that are willing to invest in their employees and help them grow. I am also willing to conform with the company's culture and work environment whether it is remote or on-site. <br />
+          If you have any questions or want to work with me, feel free to contact me. You can send me an email at onyangogeorge954@gmail.com. I will get back to you as soon as possible.
         </p>
       </div>
     </div>
