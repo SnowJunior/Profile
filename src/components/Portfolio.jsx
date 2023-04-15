@@ -12,13 +12,13 @@ const Portfolio = () => {
     {
       id: 1,
       src: matatuu,
-      demo: "https://snowjunior.github.io/matatuu/",
+      demo:"https://snowjunior.github.io/matatuu",
       code:"https://github.com/SnowJunior/matatuu",
     },
     {
       id: 2,
       src: realtor,
-      demo:"https://realtor-frontend-ruddy.vercel.app/",
+      demo:"https://realtor-frontend-ruddy.vercel.app",
       code:"https://github.com/SnowJunior/Realtor-frontend",
     },
     {
@@ -59,12 +59,12 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={demo}>
+                <a className="w-1/2 px-8 py-3 m-4 duration-200 hover:scale-105" href={demo} target='blank'>
                   Demo
-                </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={code}>
+                </a>
+                <a className="w-1/2 px-8 py-3 m-4 duration-200 hover:scale-105" href={code} target='blank'>
                   Code
-                </button>
+                </a>
               </div>
             </div>
           ))}
