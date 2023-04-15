@@ -4,7 +4,6 @@ import realtor from '../assets/portfolio/realtor.png'
 import elewa from '../assets/portfolio/elewa.png'
 import virusMed from '../assets/portfolio/coronaV.png'
 import pizza from '../assets/portfolio/pizzariea.png'
-import delani from '../assets/portfolio/delani.jpg'
 
 const Portfolio = () => {
 
