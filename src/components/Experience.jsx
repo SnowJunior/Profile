@@ -5,7 +5,7 @@ import flutter from "../assets/flutter.png";
 import javascript from "../assets/js.png";
 import reactImage from "../assets/react.png";
 import git from "../assets/github.png";
-import html from "../assets/html.png";
+import angular from "../assets/angular.png";
 import ruby from "../assets/ruby.png";
 import kotlin from "../assets/kotlin.png";
 
@@ -25,8 +25,8 @@ const Experience = () => {
     },
     {
       id: 3,
-      src: html,
-      title: "HTML",
+      src: angular,
+      title: "Angular",
       style: "shadow-orange-500",
     },
     {

@@ -1,7 +1,7 @@
 import React from 'react'
 import matatuu from '../assets/portfolio/matatuu.png'
 import realtor from '../assets/portfolio/realtor.png'
-import portal from '../assets/portfolio/studentportal.png'
+import elewa from '../assets/portfolio/elewa.png'
 import virusMed from '../assets/portfolio/coronaV.png'
 import pizza from '../assets/portfolio/pizzariea.png'
 import delani from '../assets/portfolio/delani.jpg'
@@ -13,14 +13,20 @@ const Portfolio = () => {
     {
       id: 1,
       src: matatuu,
+      demo: "https://snowjunior.github.io/matatuu/",
+      code:"https://github.com/SnowJunior/matatuu",
     },
     {
       id: 2,
       src: realtor,
+      demo:"https://realtor-frontend-ruddy.vercel.app/",
+      code:"https://github.com/SnowJunior/Realtor-frontend",
     },
     {
       id: 3,
-      src: portal,
+      src: elewa,
+      demo:"https://elewa.ke",
+      code:"https://github.com/SnowJunior/elewa-group/tree/main",
     },
     {
       id: 4,
@@ -29,10 +35,6 @@ const Portfolio = () => {
     {
       id: 5,
       src: pizza,
-    },
-    {
-      id: 6,
-      src: delani,
     },
   ];
 
@@ -50,18 +52,18 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, demo, code }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
-                alt="matatuu"
+                alt=""
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={demo}>
                   Demo
                 </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={code}>
                   Code
                 </button>
               </div>
